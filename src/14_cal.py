@@ -22,3 +22,13 @@ and does the following:
 import sys
 import calendar
 from datetime import datetime
+
+# f = open('cal.py', 'w')
+month = input('month:')
+year = input('year:')
+# f.write(cal)
+
+# f = open('cal.py', 'r')
+# print(f.read())
+
+calendar.prmonth(int(year), int(month), 1, 1)
